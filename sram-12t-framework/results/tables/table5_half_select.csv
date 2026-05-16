@@ -1,0 +1,8 @@
+Cell,Row Half-Select,Column Half-Select,Mechanism,Notes
+6T,No,No,None,WL raises access Tx
+8T,No,Yes,Column gating,Write HS remains
+10T,Partial,Yes,—,Write HS still present
+SR-Latch-12T,Yes,Yes,Separate WL/RWL,VGND generator overhead
+SCM-12T,Partial,N/A,Shared PT/NT,No HS analysis reported
+DSPS-12T,Yes,Yes,DSPS self-protection + row-gated write,Qualitative analysis only
+Proposed Unified 12T,Yes,Yes,DSPS + VVSS + WWLA/WWLB row-gating,10000-op exhaustive verified

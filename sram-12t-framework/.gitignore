@@ -1,0 +1,43 @@
+# HSPICE output files
+*.lis
+*.tr0
+*.ac0
+*.sw0
+*.mt0
+*.st0
+*.ic0
+*.pa0
+*.log
+*.wdb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Simulation results (large binary files)
+results/figures/*.png
+results/logs/
+
+# PTM model files (downloaded separately)
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep result tables but not raw sim output
+!results/tables/
+!results/figures/.gitkeep
